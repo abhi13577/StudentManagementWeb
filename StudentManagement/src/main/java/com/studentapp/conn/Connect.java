@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class Connect {
    public static Connection getConn() {
-	   String url="jdbc:mysql://localhost:3306/db";
-	   String user="root";
-	   String pass = "password";
+	   String url="db_url";
+	   String user="db_user";
+	   String pass = "db_pw";
 	   Connection con=null;
 	   
 	   try {
